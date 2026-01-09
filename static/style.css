@@ -1,0 +1,10 @@
+:root{
+    --bacround-color-menu: #000000;
+    --primary-color: #E88A1A;
+    --bacround-color: #080323c6;
+    --grey-color: #808080;
+}
+
+body{
+    background-color: var(--bacround-color);
+}
