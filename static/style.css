@@ -1,10 +1,26 @@
 :root{
-    --bacround-color-menu: #000000;
+    --bacround-color-menu: #131814;
     --primary-color: #E88A1A;
     --bacround-color: #080323c6;
     --grey-color: #808080;
 }
 
+header{
+    background-color: var(--bacround-color-menu);
+    margin-top: 0;
+    display: block;
+    height: 150px;
+}
+
+.logo_img{
+    height: 150px;
+}
+
+.logo_name{
+    color: var(--primary-color);
+}
+
 body{
     background-color: var(--bacround-color);
+    margin: 0;
 }
