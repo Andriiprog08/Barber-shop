@@ -1,4 +1,4 @@
 # Barber-shop (Your Strong Point)
 
-> [Important]
+> [!IMPORTANT]
 > The web is in the erly stages of development
