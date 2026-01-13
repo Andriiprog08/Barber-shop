@@ -8,19 +8,39 @@
 header{
     background-color: var(--bacround-color-menu);
     margin-top: 0;
-    display: block;
     height: 150px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-.logo_img{
+.barber{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img, .icons{
     height: 150px;
+
 }
 
 .logo_name{
     color: var(--primary-color);
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.social{
+    justify-content: space-between;   /* dont now*/
 }
 
 body{
     background-color: var(--bacround-color);
     margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.info{
+    padding-top: 146px;
 }
