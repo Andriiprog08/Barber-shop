@@ -17,21 +17,26 @@ header{
 .barber{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.logo_img, .icons{
-    height: 150px;
+.components{
+    display: flex;
+}
 
+.logo_img {
+    height: 150px;
+}
+
+.icons{
+    height: 70px;
+    margin-left: 30px;
 }
 
 .logo_name{
     color: var(--primary-color);
-    margin-left: 40px;
     font-size: 25px;
-}
-
-.social{
-    justify-content: space-between;   /* dont now*/
+    margin-right: 50px;
 }
 
 body{
@@ -43,4 +48,8 @@ body{
 
 .info{
     padding-top: 146px;
+}
+
+footer{
+    background-color: var(--bacround-color-menu);
 }
