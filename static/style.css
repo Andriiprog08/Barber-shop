@@ -1,7 +1,9 @@
 :root{
     --bacround-color-menu: #131814;
     --primary-color: #E88A1A;
+    --h2-color:#e8aa1a;
     --bacround-color: #080323c6;
+    --rightBlock-color:#0f063fc7;
     --grey-color: #808080;
 }
 
@@ -60,6 +62,31 @@ body{
     font-size: 50px;
 }
 
+.titleBlocks{
+    color: var(--h2-color);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.right{
+    background-color: var(--rightBlock-color);
+    padding: 17px 0px;
+}
+
+.textinBlock{
+    color: var(--primary-color);
+    font-size: 25px;
+    line-height: 1.2;
+}
+
 footer{
     background-color: var(--bacround-color-menu);
+    margin: 0px;
+}
+
+.footerName{
+    margin: 0x;
+    margin-top: 10px;
+    font-size: 50px;
+    color: var(--primary-color);
 }
