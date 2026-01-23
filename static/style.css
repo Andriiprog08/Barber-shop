@@ -50,6 +50,10 @@ header{
     transform: scale(0.95);
 }
 
+a, a:active, a:focus{
+    text-decoration: none !important;
+}
+
 .logo_name{
     color: var(--primary-color);
     font-size: 25px;
