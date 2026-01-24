@@ -1,4 +1,6 @@
 # Barber-shop (Your Strong Point)
 
+Currently, this website has small header, a small block about the barber shop, and a small footer (which is currently under development).
+
 > [!IMPORTANT]
-> The web is in the erly stages of development
+> This web is under development
