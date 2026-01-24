@@ -72,11 +72,15 @@ body{
     padding-top: 146px;
 }
 
+.aboutUs{
+    justify-content: center;
+    text-align: center;
+}
+
 .titleUs{
     color: var(--primary-color);
     text-transform: uppercase;
     margin-top: 20px;
-    margin-left: 30px;
     font-size: 50px;
 }
 
@@ -84,6 +88,10 @@ body{
     color: var(--h2-color);
     text-transform: uppercase;
     font-size: 30px;
+}
+
+.subspecial{
+    margin-bottom: 0px;
 }
 
 .right{
@@ -131,6 +139,13 @@ body{
     line-height: 1.2;
 }
 
+.subtitleBlock{
+    color: var(--primary-color);
+    font-size: 25px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
 footer{
     background-color: var(--bacround-color-menu);
     margin: 0px;
@@ -138,7 +153,15 @@ footer{
 
 .footerName{
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
+    padding-top: 20px;
     font-size: 50px;
     color: var(--primary-color);
+}
+
+.down_info{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    color: var(--grey-color);
+    text-align: center;
 }
