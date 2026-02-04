@@ -242,6 +242,11 @@ body{
     text-transform: uppercase;
 }
 
+#messageforAdmin{
+  height: 15px;
+  width: 190px;
+}
+
 #registrBtn{
   align-items: center;
   appearance: none;
@@ -361,6 +366,11 @@ footer{
     padding-top: 20px;
     font-size: 50px;
     color: var(--primary-color);
+}
+
+.footerText{
+  color: var(--h2-color);
+  font-size: 25px;
 }
 
 .down_info{
