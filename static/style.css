@@ -7,6 +7,14 @@
     --color-text-muted: #888888;
 }
 
+body{
+    background-color: var(--color-bg);
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     background-color: var(--color-header-footer);
     margin-top: 0;
@@ -62,13 +70,7 @@ a, a:active, a:focus{
     text-decoration: none !important;
 }
 
-body{
-    background-color: var(--bacround-color);
-    margin: 0;
-    padding: 0px;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* section */
 
 .AboutUsBox{
     padding-top: 146px;
@@ -79,24 +81,55 @@ body{
     text-align: center;
 }
 
-.titleUs{
-    color: var(--primary-color);
+.titleUsh1{
+    color: var(--color-accent);
     text-transform: uppercase;
     margin-top: 20px;
     font-size: 50px;
 }
 
-.titleBlocks{
-    color: var(--h2-color);
+.containerAboutUs{
+  width: 100%;
+  height: 420px;
+  position: relative;
+  overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.bannerAboutus{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* .titleBlocks{
+    color: var(--color-accent);
     text-transform: uppercase;
     font-size: 30px;
-}
+} */
 
-.subspecial{
+/* .subspecial{
     margin-bottom: 0px;
-}
+} */
 
-.right{
+/* .right{
     background-color: var(--rightBlock-color);
     padding: 17px 0px;
     text-align: right;
@@ -127,7 +160,7 @@ body{
 
 .blockInsideText{
     margin: 0px 20px;
-}
+} */
 
 .work{
     margin-top: 20px;
