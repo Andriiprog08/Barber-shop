@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('.gallery .gallery_foto');
+const images = document.querySelectorAll('.galleryBox .gallery_foto');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
 const btnZoomIn = document.getElementById('zoom-in');
@@ -50,12 +50,10 @@ btnZoomOut.addEventListener('click', () => {
   modalImg.style.transform = `scale(${scale})`;
 });
 
-// Закрытие по клику вне изображения
 modal.addEventListener('click', e => {
   if (e.target === modal) closeModal();
 });
 
-// Управление с клавиатуры
 document.addEventListener('keydown', e => {
   if (!modal.classList.contains('active')) return;
   if (e.key === 'ArrowRight') showNext();
@@ -63,7 +61,6 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
 });
 
-// Масштабирование колесиком мыши
 modalImg.addEventListener('wheel', e => {
   e.preventDefault();
   if (e.deltaY < 0) scale += 0.1;
