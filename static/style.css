@@ -296,7 +296,7 @@ a, a:active, a:focus{
 
 #registrBtn:before,
 #registrBtn:after {
-  border-radius: 80px;
+  border-radius: 7px;
 }
 
 #registrBtn:before {
