@@ -9,7 +9,11 @@
 </head>
 
 <body>
-    <header>{% block menu %}{% endblock %}</header>
+    <header>
+        {% block header %}
+            {% include "index_part/header.html" %}
+        {% endblock %}
+    </header>
 <!-- 
     <div>{% block main %}{% endblock %}</div>
 
