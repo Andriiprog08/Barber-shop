@@ -1,26 +1,56 @@
 :root{
-    --color-bg: #5C0011;
-    --color-surface: #1a1a1a;
-    --color-accent: #C9A227;
+    --bg-primary: #1a0d0d;
+    --bg-header: #0d0a0a;
+    --bg-footer: #080606;
+    --bg-card: #241210;
 
-    --hovers-secondary-accent: #8B0000;
-    --color-text: #F5EBDD;
-    --shadows-gradients: #3D0A0F;
-    --color-text-muted: #D9D9D9;
+    --gold: #c9a227;
+    --gold-light: #d4af37;
+    --red-primary: #8b1e1e;
+    --red-hover: #a52a2a;
 
-    --secondary-bg: #2B2B2B;
+    --text-main: #f2e8dc;
+    --text-muted: #8a7a6a;
+    --text-on-gold: #1a0d0d;
+
+    --border-gold: #c9a227;
+    --border-dark: #2b1414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3{
+  color: var(--gold);
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.2; 
+}
+
+h1 { font-size: 3.5rem; font-weight: bolder; }
+h2 { font-size: 2.5rem; font-weight: bold; }
+h3 { font-size: 1.6rem; font-weight: bold; }
+
+p{
+  color: var(--text-main);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+a {
+    text-decoration: none;
 }
 
 body{
-    background-color: var(--color-bg);
-    margin: 0;
-    padding: 0px;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-primary);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
-    background-color: var(--color-header-footer);
+    background-color: var(--bg-header);
     margin-top: 0;
     height: 14%;
     position: fixed;
