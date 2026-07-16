@@ -17,16 +17,12 @@
             {% include "index_part/header.html" %}
         {% endblock %}
     </header>
+
+    <main>{% block main %}{% endblock %}</main>
 <!-- 
-    <div>{% block main %}{% endblock %}</div>
-
-    <div>{% block our_work %}{% endblock %}</div>
-
-    <div>{% block registr %}{% endblock %}</div>
-
     <footer>{% block footer %}{% endblock %}</footer> 
     
-    TODO: Temporarily disabled; to be reinstated after refactoring header-->
+    TODO: Temporarily disabled; to be reinstated after refactoring main.html-->
 
     <script src="{{ url_for('static', filename='function.js') }}"></script>
 </body>
