@@ -1,3 +1,12 @@
+const burgerBtn = document.getElementById('burgerBtn');
+const boxLinks = document.getElementById('boxLinks');
+
+burgerBtn.addEventListener('click', () => {
+  boxLinks.classList.toggle('active');
+  burgerBtn.classList.toggle('active');
+});
+
+
 const images = document.querySelectorAll('.galleryBox .gallery_foto');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');

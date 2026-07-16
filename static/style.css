@@ -61,11 +61,11 @@ header{
   background-color: var(--bg-header);
   top: 0;
   margin-top: 0;
-  height: 14%;
   position: sticky;
   height: fit-content;
   z-index: 100;
   border-bottom: 3px solid var(--border-gold);
+  width: 100%;
 }
 
 .barberBox{
@@ -140,6 +140,65 @@ header{
 
 .curl-link span {
   transition: color 0.35s ease;
+}
+
+.burger{
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 50px;
+  background: none;
+  cursor: pointer;
+  z-index: 200;
+  margin-right: 20px;
+}
+
+.burger span{
+  display: block;
+  height: 8px;
+  background-color: var(--border-gold);
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+
+  h1{ font-size: clamp(1.4rem, 5.5vw, 2.2rem); }
+  h2{ font-size: clamp(1.2rem, 4.5vw, 1.8rem); }
+  h3{ font-size: clamp(1rem, 4vw, 1.4rem); }
+  p,a{ font-size: clamp(0.85rem, 3.2vw, 1.1rem); }
+
+  header{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .burger{
+    display: flex;
+  }
+
+  .boxLinks{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--bg-header);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease;
+    border: 2px solid var(--border-gold);
+  }
+
+  .boxLinks.active{
+    right: 0;
+    margin: 0;
+  }
 }
 
 /* .socialIcons{
