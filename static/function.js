@@ -9,7 +9,7 @@ burgerBtn.addEventListener('click', () => {
 });
 
 
-const images = document.querySelectorAll('.galleryBox .gallery_foto');
+const images = document.querySelectorAll('.galleryContent .galleryImg');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modal-img');
 const btnZoomIn = document.getElementById('zoom-in');
