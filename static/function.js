@@ -1,9 +1,11 @@
 const burgerBtn = document.getElementById('burgerBtn');
 const boxLinks = document.getElementById('boxLinks');
+const main = document.getElementById('main');
 
 burgerBtn.addEventListener('click', () => {
   boxLinks.classList.toggle('active');
   burgerBtn.classList.toggle('active');
+  main.classList.toggle('blurred');
 });
 
 

@@ -204,6 +204,16 @@ header{
     right: 0;
     margin: 0;
   }
+
+  main{
+    transition: filter 0.3s ease, opacity 0.3s ease;
+  }
+
+  main.blurred{
+    filter: blur(6px);
+    opacity: 0.6;
+    pointer-events: none;
+  }
 }
 
 /* .socialIcons{
