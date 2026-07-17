@@ -180,6 +180,7 @@ header{
   header{
     width: 100%;
     box-sizing: border-box;
+    z-index: 1001;
   }
 
   .burger{
@@ -188,10 +189,11 @@ header{
 
   .boxLinks{
     position: fixed;
-    top: 0;
+    top: 169px;
     right: -100%;
     width: 70%;
-    height: 100vh;
+    height: calc(100% - 169px);
+    z-index: 1000;
     background-color: var(--bg-header);
     flex-direction: column;
     justify-content: center;
