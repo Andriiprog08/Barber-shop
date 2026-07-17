@@ -36,13 +36,13 @@ h1, h2, h3{
   text-transform: uppercase;
 }
 
-h1 { font-size: 3.5rem; font-weight: bolder; }
-h2 { font-size: 2.5rem; font-weight: bold; }
-h3 { font-size: 1.6rem; font-weight: bold; }
+h1 { font-size: 2.7rem; font-weight: bolder; }
+h2 { font-size: 1.7rem; font-weight: bold; }
+h3 { font-size: 1.4rem; font-weight: bold; }
 
 p{
   color: var(--text-main);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 
@@ -248,8 +248,8 @@ a, a:active, a:focus{
 .cardAboutus{
   display: flex;
   flex-direction: column;
-  width: 700px;
-  height: 850px;
+  width: 580px;
+  height: 730px;
   align-items: center;
   background: var(--bg-header);
   border: 3px solid var(--border-gold);
