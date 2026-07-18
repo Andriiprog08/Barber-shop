@@ -1,3 +1,19 @@
+aboutusContents = {
+    1: {
+        "title": "About The Salon",
+        "text": "The barbershop Your Strong Point is a place where style meets precision. Here, individuality is valued, and every client is helped to highlight their character through a clean haircut, a perfectly shaped beard, and a well-thought-out look. The atmosphere of the barbershop combines modern minimalism with comfort, making every visit not just a service, but a pleasant self-care ritual.",
+        "img": "static/img/barbershop.jpg",
+        "alt": "barber shop"
+    },
+
+    2: {
+        "title": "About employees",
+        "text": "At Your Strong Point, skilled barbers work with professionalism and great attention to detail. They continuously improve their skills, follow the latest trends, and know how to connect with every guest. For them, it’s important not only to do a great job, but also to create comfort, trust, and confidence in the final result.",
+        "img": "static/img/hai-phu.jpg",
+        "alt": "Hair Style"
+    }
+}
+
 priceInfos = {
     1: {
         "title": "Clipper Cut",
