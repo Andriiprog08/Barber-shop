@@ -6,30 +6,15 @@
         </div>
     
         <div class="aboutusContainer">
-    
-            <div class="cardAboutus">
-                <img class="aboutusImg" src="static/img/barbershop.jpg" alt="barber shop">
-                <div class="content-aboutUs">
-                    <h2>About The Salon</h2>
-                    <p>The barbershop <b>Your Strong Point</b> is a place where style meets precision. Here,
-                        individuality is valued, and every client is helped to highlight their character through a clean haircut,
-                        a perfectly shaped beard, and a well-thought-out look. The atmosphere of the barbershop combines modern minimalism with comfort,
-                        making every visit not just a service, but a pleasant self-care ritual.
-                    </p>
+            {%for id, aboutusContent in aboutusContents.items() %}
+                <div class="cardAboutus">
+                    <img class="aboutusImg" src="{{aboutusContent.img}}" alt="{{aboutusContent.alt}}">
+                    <div class="content-aboutUs">
+                        <h2>{{aboutusContent.title}}</h2>
+                        <p>{{aboutusContent.text}}</p>
+                    </div>
                 </div>
-            </div>
-    
-            <div class="cardAboutus">
-                <img class="aboutusImg" src="static/img/hai-phu.jpg" alt="Hair Style">
-                <div class="content-aboutUs">
-                    <h2>About employees</h2>
-                    <p>At <b>Your Strong Point</b>, skilled barbers work with professionalism and great attention to detail.
-                        They continuously improve their skills, follow the latest trends, and know how to connect with every guest.
-                        For them, it’s important not only to do a great job, but also to create comfort, trust, and confidence in the final result.
-                    </p>
-                </div>
-    
-            </div>
+            {%endfor%}
         </div>
     
     </div>
