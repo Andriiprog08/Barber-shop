@@ -409,6 +409,23 @@ a, a:active, a:focus{
   }
 }
 
+.priceSection .priceContent{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.priceCard{
+  border: 2px solid var(--border-gold);
+  border-radius: 20px;
+  background-color: var(--border-dark);
+  width: 400px;
+  height: 420px;
+  gap: 30px;
+  justify-content: center;
+}
+
 .registrContainer{
     text-align: center;
     padding: 17px 0px;

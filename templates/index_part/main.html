@@ -64,3 +64,18 @@
     </div>
     
 </section>
+<section class="priceSection">
+
+    <div class="priceContent">
+        <h1>Price List</h1>
+    
+        {%for id, priceInfo in priceInfos.items() %}
+            <div class="priceCard">
+                <h2>{{priceInfo.title}}</h2>
+                <p>{{priceInfo.text}}</p>
+                <p>{{priceInfo.price}}</p>
+            </div>
+        {%endfor%}
+    </div>
+
+</section>
