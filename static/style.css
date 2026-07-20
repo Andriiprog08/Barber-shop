@@ -413,17 +413,39 @@ a, a:active, a:focus{
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 30px;
+  align-items: center;
+  padding-top: 10px;
 }
+
+.boxCards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  justify-items: center;
+}
+
+.boxCards:nth-child(6){ grid-row: 2; }
 
 .priceCard{
   border: 2px solid var(--border-gold);
   border-radius: 20px;
   background-color: var(--border-dark);
-  width: 400px;
-  height: 420px;
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 370;
+  height: 370px;
+  margin-top: 30px;
+  margin: 15px;
   justify-content: center;
+  padding: 15px;
+}
+
+.cardTitle{ margin-bottom: 20px; }
+
+.cardTextprice{
+  margin-top: 10px;
+  color: var(--gold-light);
+  text-transform: uppercase;
 }
 
 .registrContainer{
