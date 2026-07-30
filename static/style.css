@@ -438,7 +438,10 @@ a, a:active, a:focus{
   margin: 15px;
   justify-content: center;
   padding: 15px;
+  transition: transform 0.2s ease;
 }
+
+.priceCard:hover{ transform: scale(1.05); }
 
 .cardTitle{ margin-bottom: 20px; }
 
