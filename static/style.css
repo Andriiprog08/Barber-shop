@@ -314,6 +314,7 @@ a, a:active, a:focus{
   gap: 30px;
   padding: 20px 200px 20px 200px;
   border-bottom: 3px solid var(--color-accent);
+  margin: 20px;
 }
 
 .imgBottom:nth-child(6){
@@ -417,11 +418,16 @@ a, a:active, a:focus{
   padding-top: 10px;
 }
 
+.priceContent{
+  margin-top: 20px;
+}
+
 .boxCards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 70%;
   justify-items: center;
+  margin-top: 20px;
 }
 
 .boxCards:nth-child(6){ grid-row: 2; }
